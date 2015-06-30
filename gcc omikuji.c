@@ -10,7 +10,6 @@ int main(void)
 	while (1){
 		omikuji = rand() % 5 + 1;
 		printf("おみくじのプログラムを始めます\n");
-		getchar();
 		printf("おみくじを開始するにはENTERキーを押してください\n");
 		getchar();
 		switch (omikuji){
