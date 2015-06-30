@@ -3,11 +3,9 @@
 #include<time.h>
 #include <termios.h>
 
-#define MAX 1024
-
 int main(void)
 {
-	int omikuji, i, check;
+	int omikuji;
 	srand((unsigned)time(NULL));/* 追加部分 */
 	while (1){
 		omikuji = rand() % 5 + 1;
